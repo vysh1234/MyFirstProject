@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <p id="text">using object constructor</p>
+        <script>
+            function Student(Name,Age,MobileNo){
+                this.Name=Name;
+                this.Age=Age;
+                this.MobileNo=MobileNo;
+
+            }
+
+            const Aditya=new Student("Aditya",45,2778889889)
+            document.getElementById("text").innerHTML= 
+            Aditya.Name  +"has age"+  Aditya.age  + " mobile no" +Aditya.MobileNo;
+            
+        </script>
+    </body>
+</html>
