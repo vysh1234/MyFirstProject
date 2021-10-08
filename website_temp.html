@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .body{
+            padding:10Px;
+            margin:0%;
+        }
+        .header{
+            background-color:wheat;
+            text-align:center;
+            padding:20Px;
+            color:crimson;
+        }
+        .navbar{
+            background-color: lightcyan ;
+            color:coral;
+            padding:5Px;
+            font-family:'Times New Roman', Times, serif;
+            text-align: left;
+
+        }
+        .navbar a{
+            background-color: black ;
+            color:coral;
+            padding:14Px 15Px;
+            font-family:'Times New Roman', Times, serif;
+            text-align: left;
+
+        }
+        .navbar:hover{
+            color:cornsilk;
+            background-color: coral;
+        }
+        .column{
+            float:left;
+            width:33.33%;
+            padding:15Px;
+        }
+        .row:after{
+            content:"";
+
+        }
+        .footer {
+            grid-area: footer;
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+}
+        @media (max-width: 600px) {
+            .grid-container  {
+        grid-template-areas: 
+            'header header header header header header' 
+            'left left left left left left' 
+            'middle middle middle middle middle middle' 
+            'right right right right right right' 
+            'footer footer footer footer footer footer';
+  }
+}
+    </style>
+    <div class="header">
+        <h1>Welcome to my website</h1>
+    </div>
+    <div class="navbar">
+        <a href="#">Homepage</a>
+        <a href="#">contact us</a>
+        <a href="#">about us</a>
+
+    </div>
+    <div class="column"><h1>column</h1>
+       <p>: Computer viruses can be transmitted 
+           via email. While Cognixia has taken reasonable precautions to minimize this risk, 
+           Cognixia accepts no liability for any damage that may be caused to you in the event 
+           that there is any virus in this e-mail or any attachments attached hereto. 
+           Cognixia recommends the addressee(s) to check and scan this email and any attachments attached hereto for the presence of viruses prior to opening the email.</p>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+      </div>
+</body>
+</html>

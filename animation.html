@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CSS based animation</h1>
+    <div>.</div>
+    <p>Animating color of shape</p>
+    <style>
+        div{
+            height:220px;
+            width:220px;
+            animation-name:example;
+            animation-duration: 10S;
+            background-color:violet;
+            animation-timing-function: step-start();
+            animation-timing-function: step-end();
+        }
+        @keyframes example{
+            0%{background-color:violet ;
+            height:120px;}
+            25%{background-color: sandybrown;
+            width:100px;}
+            50%{background-color: turquoise;
+            height:220px;}
+            100%{background-color: yellow;
+            width:220px}
+        }
+    </style>
+</body>
+</html>

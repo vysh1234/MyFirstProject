@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style=Background-color:lightblue;>
+      <h2>Exception handlind in js</h2>
+      <p id="Message"></p>
+      <script>
+            try{
+                let num=1;
+                //num.toPrecision(500);
+                num.toUpperCase();
+                //ErrDisplay("Displaying Error Message");
+                
+            }catch(err){
+                 document.getElementById("Message").innerHTML=err.name;
+            }
+      </script>
+</body>
+</html>

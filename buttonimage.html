@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  #btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+  font-size: 16px;
+  padding: 2px 3px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  }
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top:  75%;
+  left: 25%;
+  transform: translate(50%, 50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 10px;
+  padding: 0px 1px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Button on Image</h2>
+
+<p>Add a button on an image:</p>
+
+<div class="container">
+  <p id="btn">Google<br><input id="name"></p>
+  <img src="C:\Users\vaishnavi.vinjam\Downloads\background-2413081_1920.jpg" alt="Snow" style="width:100%">
+  <a href="https:\\www.trianz.com"><button class="btn">My company website</button></a>
+</div>
+
+</body>
+</html>

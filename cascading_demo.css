@@ -1,0 +1,9 @@
+body{
+    color:rgb(90, 145, 14);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+    border-color:black;
+    background-image: url('/Downloads/Html.jpg');
+    height:100%;
+    width:100%;
+}

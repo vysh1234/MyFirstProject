@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Image gallery implementation with border radius property</h1>
+    <img src="C:\Users\vaishnavi.vinjam\Downloads\Html.jpg" alt="Image background" height="300" width="300">
+    <img src="C:\Users\vaishnavi.vinjam\Downloads\Html.jpg" alt="Image background" height="300" width="300">
+    <img src="C:\Users\vaishnavi.vinjam\Downloads\Html.jpg" alt="Image background" height="300" width="300">
+    <h2>Responsive Polaroid Images / Cards</h2>
+
+    <div class="polaroid">
+       <img src="C:\Users\vaishnavi.vinjam\Downloads\Html.jpg" alt="5 Terre" style="width:100%">
+       <div class="container">
+       <p>Cinque Terre</p>
+    </div>
+   </div>
+
+    <div class="polaroid">
+        <img src="C:\Users\vaishnavi.vinjam\Downloads\Html.jpg" alt="Norther Lights" style="width:100%">
+        <div class="container">
+        <p>Northern Lights</p>
+    </div>
+</div>
+    <style>
+        img {
+            border-radius : 25%;
+            box-sizing: border-box;
+            padding:15px;
+            margin-left:auto;
+            margin-right:auto;
+            opacity:0.8;
+            
+        }
+        img:hover{
+            box-shadow: 1px 2px chartreuse;
+        }
+        body {margin:50px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+    </style>
+</body>
+</html>
