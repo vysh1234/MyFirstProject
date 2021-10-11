@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.microsoft.com/en-in" method="POST">
+    
+        <input type="email" id="emailinput" value="enter your mail ">
+        <input type="text" id="name">
+        <input type="url" value="enter url">
+        <input type="color" value="select color">
+        <input type="date">
+        <input type="time">
+        <label>Select your fav fruit</label>
+            <select id="fruits">
+                <option value="mango">mango</option>
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+
+            </select>
+        <input type="submit" value="submit">
+    </form>
+    <script>
+        function validate(){
+            var name1=document.getElementByID("name").value;
+            re=/^[a-zA-Z\-]+$/;
+            if(re.test(name1)){
+                alert("your values are with us!")
+                return true;
+            }
+            else{
+                alert("you are unable to wright name for validation")
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

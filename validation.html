@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>welcome to login form for online program</h1> 
+    
+    <p>
+        <label id="namelbl"><strong>Enter Your Name</strong><br></label>
+        <input id="nameinp" inputmode="text" onfocus="this.value=' '" type="text">
+    </p>
+    <p>
+        <label id="emaillbl"><strong>Enter Your MailID</strong><br></label>
+        <input id="emailinp" inputmode="email" type="text">
+    </p>
+    <p>
+        <label id="mobilelbl"><Strong>Enter Your Mobile no</Strong><br></label>
+        <input id="mobileinp" inputmode="numeric" type="text">
+   
+    </p>
+    <p>
+        <label id="passwordlbl"><strong> Your password</strong><br></label>
+        <input id="passwordinp" type="password"><br>
+        <label id="passwordlbl"><strong>Enter again</strong><br></label>
+        <input id="verifypassinp" type="password">
+    </p>
+    <p>
+        <input class="button" id="submitbtn" type="submit" value="click here to submit">
+        <input class="button" id="reset_btn" type="reset" value="reset form">    </p>
+        <style>
+            .button{
+                background-color: blue;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 15%;
+                opacity: 0.9;
+            }
+            button:hover{
+                opacity:0.5;
+                border-radius:5px;
+            }
+            input[type=text], input[type=password] ,input[type=email]{
+            width: 50%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            border-radius: 15px;
+            background: #f1f1f1;}
+        </style>
+</body>
+</html>
